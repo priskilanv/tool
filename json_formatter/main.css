@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+
+body{
+  margin: 0;
+  background-color: #f6f6f6;
+}
+a{
+  text-decoration: none;
+  color: #000;
+}
+a:hover
+a:focus{
+  text-decoration: none;
+  outline: none;
+  color: #363636;
+}
+
+.clearfix:before,
+.clearfix:after{
+  display: table;
+  content: " ";
+}
+.clearfix:after {
+  clear: both;
+}
+*, 
+*:after, 
+*:before{
+  -webkit-box-sizing: border-box; 
+  -moz-box-sizing: border-box; 
+  box-sizing: border-box; 
+}
+
+.list-unstyled{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.container{
+    width: 996px;
+    margin: 0 auto;
+}
+.form-group{
+    margin: 40px 0;
+    display: table;
+}
+
+
+.input_textarea{
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    padding: 10px 15px;
+}
+
+.tool-title{
+    font-family: 'Lato', sans-serif;
+    font-size: 36px;
+    color: #2980b9;
+    font-weight: 700;
+    display: block;
+    margin: 50px 0px;
+}
+
+.tool-title .result-title{
+  font-size: 30px;
+  display: none;
+}
+.btn{
+    background-color: #2980b9;
+    border: 0;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    display: table;
+    margin: 20px auto;
+    padding: 10px 20px;
+}
+
+.result{
+  margin : 40px 0;
+}
+.option{
+  padding: 10px 15px;
+  margin-bottom: 30px;
+}
+
+.alert{
+  display: none;
+}
+.alert-success{
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  color: #3c763d;
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+}
+.alert-danger{
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  color: #a94442;
+  background-color: #f2dede;
+  border-color: #ebccd1;
+}
+.alt{
+  font-family: 'Lato', sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  display: table;
+  margin: 0 auto;
+}
+pre{
+  outline: 1px solid #ccc;
+  padding: 5px;
+  margin: 40px auto;
+  width: 996px;
+  background-color: #fff;
+}
+.string{
+  color: green;
+}
+.number{
+  color: darkorange;
+}
+.boolean{
+  color: blue;
+}
+.null{
+  color: magenta;
+}
+.key{
+  color: red;
+}
